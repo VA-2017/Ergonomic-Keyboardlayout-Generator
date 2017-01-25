@@ -7,5 +7,7 @@
     <ClInclude Include="AbstractKeys.h" />
     <ClInclude Include="Key.h" />
     <ClInclude Include="CSVLoader.h" />
+    <ClInclude Include="MetaDefinition.h" />
+    <ClInclude Include="FingerMovesCalculator.h" />
   </ItemGroup>
 </Project>

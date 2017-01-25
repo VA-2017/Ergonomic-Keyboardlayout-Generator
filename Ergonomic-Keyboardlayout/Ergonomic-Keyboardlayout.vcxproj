@@ -143,7 +143,9 @@
   <ItemGroup>
     <ClInclude Include="AbstractKeys.h" />
     <ClInclude Include="CSVLoader.h" />
+    <ClInclude Include="FingerMovesCalculator.h" />
     <ClInclude Include="Key.h" />
+    <ClInclude Include="MetaDefinition.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
