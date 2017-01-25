@@ -1,4 +1,12 @@
+image: Visual Studio 2017 RC
+
 configuration:
   - Release
-before_build:
-  - nuget restore
+
+build_script:
+  - msbuild %solution_name%
+
+test_script:
+  - C:\projects\jnf-neat\Release\xor_two_bits.exe
+  - C:\projects\jnf-neat\Release\xor_three_bits.exe
+  - C:\projects\jnf-neat\Release\EvenNumbers.exe
