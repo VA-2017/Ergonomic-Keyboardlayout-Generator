@@ -6,5 +6,5 @@ configuration:
 build_script:
   - msbuild %solution_name%
   
-  after_test:
-  bash <(curl -s https://codecov.io/bash)
+after_test:
+  - bash <(curl -s https://codecov.io/bash)
