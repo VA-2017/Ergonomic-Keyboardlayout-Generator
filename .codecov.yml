@@ -1,9 +1,0 @@
-coverage:
-  status:
-    project:
-      default:
-        target: 80%
-        threshold: null
-        base: 
-comment:
-    layout: "header, sunburst"
